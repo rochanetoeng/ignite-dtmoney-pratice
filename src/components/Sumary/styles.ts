@@ -19,6 +19,20 @@ export const Container = styled.main`
       align-items: center;
       justify-content: space-between;
     }
+
+    strong{
+      display: block; // strong como uma div
+      margin-top: 1rem;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 3rem;
+    }
+
+    &.background{
+      background: var(--green);
+      color: #fff;
+    }
+
   }
 
 `;

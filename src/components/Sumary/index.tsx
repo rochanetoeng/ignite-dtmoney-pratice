@@ -18,15 +18,15 @@ export function Sumary() {
         </div>
         <div>
           <header>
-            <p>Entradas</p>
+            <p>Saidas</p>
             <img src={outcomeImg} alt="Saidas" />
           </header>
 
           <strong>R$ -500,00</strong>
         </div>
-        <div>
+        <div className="background">
           <header>
-            <p>Entradas</p>
+            <p>Total</p>
             <img src={totalImg} alt="Total" />
           </header>
 
